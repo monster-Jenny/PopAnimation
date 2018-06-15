@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F61ED44AC4690CDD411DCA7 /* libPods-PopAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FA28B68442B3C4FE5BF18D /* libPods-PopAnimation.a */; };
 		8DC2C44720D35CCE008FAA94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2C44620D35CCE008FAA94 /* AppDelegate.m */; };
 		8DC2C44A20D35CCE008FAA94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2C44920D35CCE008FAA94 /* ViewController.m */; };
 		8DC2C44D20D35CCE008FAA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC2C44B20D35CCE008FAA94 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21FA28B68442B3C4FE5BF18D /* libPods-PopAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD2A8CEF0CE8CBE4FE9BE44 /* Pods-PopAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopAnimation/Pods-PopAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		8DC2C44220D35CCE008FAA94 /* PopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC2C44520D35CCE008FAA94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DC2C44620D35CCE008FAA94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		8DC2C46520D35CCF008FAA94 /* PopAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC2C46920D35CCF008FAA94 /* PopAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimationUITests.m; sourceTree = "<group>"; };
 		8DC2C46B20D35CCF008FAA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9876D4877B0C2AAF1FCF044D /* Pods-PopAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopAnimation/Pods-PopAnimation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F61ED44AC4690CDD411DCA7 /* libPods-PopAnimation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D663F8680989C254AB97AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21FA28B68442B3C4FE5BF18D /* libPods-PopAnimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DC2C43920D35CCE008FAA94 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				8DC2C45D20D35CCF008FAA94 /* PopAnimationTests */,
 				8DC2C46820D35CCF008FAA94 /* PopAnimationUITests */,
 				8DC2C44320D35CCE008FAA94 /* Products */,
+				D820A7D0B04E50DAC572425C /* Pods */,
+				6D663F8680989C254AB97AE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +147,15 @@
 			path = PopAnimationUITests;
 			sourceTree = "<group>";
 		};
+		D820A7D0B04E50DAC572425C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CD2A8CEF0CE8CBE4FE9BE44 /* Pods-PopAnimation.debug.xcconfig */,
+				9876D4877B0C2AAF1FCF044D /* Pods-PopAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DC2C46E20D35CCF008FAA94 /* Build configuration list for PBXNativeTarget "PopAnimation" */;
 			buildPhases = (
+				1F069D6140BF95FACF3C50F1 /* [CP] Check Pods Manifest.lock */,
 				8DC2C43E20D35CCE008FAA94 /* Sources */,
 				8DC2C43F20D35CCE008FAA94 /* Frameworks */,
 				8DC2C44020D35CCE008FAA94 /* Resources */,
+				1E4B1CE028FDF003CC80EB5B /* [CP] Embed Pods Frameworks */,
+				8FFEA987A3BB020A19C79469 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +286,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E4B1CE028FDF003CC80EB5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopAnimation/Pods-PopAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F069D6140BF95FACF3C50F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PopAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFEA987A3BB020A19C79469 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopAnimation/Pods-PopAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DC2C43E20D35CCE008FAA94 /* Sources */ = {
@@ -428,6 +506,7 @@
 		};
 		8DC2C46F20D35CCF008FAA94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD2A8CEF0CE8CBE4FE9BE44 /* Pods-PopAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +521,7 @@
 		};
 		8DC2C47020D35CCF008FAA94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9876D4877B0C2AAF1FCF044D /* Pods-PopAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
