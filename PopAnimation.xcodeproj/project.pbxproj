@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC2C44720D35CCE008FAA94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2C44620D35CCE008FAA94 /* AppDelegate.m */; };
+		8DC2C44A20D35CCE008FAA94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2C44920D35CCE008FAA94 /* ViewController.m */; };
+		8DC2C44D20D35CCE008FAA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC2C44B20D35CCE008FAA94 /* Main.storyboard */; };
+		8DC2C44F20D35CCE008FAA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DC2C44E20D35CCE008FAA94 /* Assets.xcassets */; };
+		8DC2C45220D35CCF008FAA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC2C45020D35CCF008FAA94 /* LaunchScreen.storyboard */; };
+		8DC2C45520D35CCF008FAA94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2C45420D35CCF008FAA94 /* main.m */; };
+		8DC2C45F20D35CCF008FAA94 /* PopAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2C45E20D35CCF008FAA94 /* PopAnimationTests.m */; };
+		8DC2C46A20D35CCF008FAA94 /* PopAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2C46920D35CCF008FAA94 /* PopAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DC2C45B20D35CCF008FAA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DC2C43A20D35CCE008FAA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2C44120D35CCE008FAA94;
+			remoteInfo = PopAnimation;
+		};
+		8DC2C46620D35CCF008FAA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DC2C43A20D35CCE008FAA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2C44120D35CCE008FAA94;
+			remoteInfo = PopAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DC2C44220D35CCE008FAA94 /* PopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC2C44520D35CCE008FAA94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DC2C44620D35CCE008FAA94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DC2C44820D35CCE008FAA94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DC2C44920D35CCE008FAA94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DC2C44C20D35CCE008FAA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DC2C44E20D35CCE008FAA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DC2C45120D35CCF008FAA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DC2C45320D35CCF008FAA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2C45420D35CCF008FAA94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DC2C45A20D35CCF008FAA94 /* PopAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC2C45E20D35CCF008FAA94 /* PopAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimationTests.m; sourceTree = "<group>"; };
+		8DC2C46020D35CCF008FAA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2C46520D35CCF008FAA94 /* PopAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC2C46920D35CCF008FAA94 /* PopAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimationUITests.m; sourceTree = "<group>"; };
+		8DC2C46B20D35CCF008FAA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2C43F20D35CCE008FAA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2C45720D35CCF008FAA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2C46220D35CCF008FAA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DC2C43920D35CCE008FAA94 = {
+			isa = PBXGroup;
+			children = (
+				8DC2C44420D35CCE008FAA94 /* PopAnimation */,
+				8DC2C45D20D35CCF008FAA94 /* PopAnimationTests */,
+				8DC2C46820D35CCF008FAA94 /* PopAnimationUITests */,
+				8DC2C44320D35CCE008FAA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DC2C44320D35CCE008FAA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2C44220D35CCE008FAA94 /* PopAnimation.app */,
+				8DC2C45A20D35CCF008FAA94 /* PopAnimationTests.xctest */,
+				8DC2C46520D35CCF008FAA94 /* PopAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DC2C44420D35CCE008FAA94 /* PopAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2C44520D35CCE008FAA94 /* AppDelegate.h */,
+				8DC2C44620D35CCE008FAA94 /* AppDelegate.m */,
+				8DC2C44820D35CCE008FAA94 /* ViewController.h */,
+				8DC2C44920D35CCE008FAA94 /* ViewController.m */,
+				8DC2C44B20D35CCE008FAA94 /* Main.storyboard */,
+				8DC2C44E20D35CCE008FAA94 /* Assets.xcassets */,
+				8DC2C45020D35CCF008FAA94 /* LaunchScreen.storyboard */,
+				8DC2C45320D35CCF008FAA94 /* Info.plist */,
+				8DC2C45420D35CCF008FAA94 /* main.m */,
+			);
+			path = PopAnimation;
+			sourceTree = "<group>";
+		};
+		8DC2C45D20D35CCF008FAA94 /* PopAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2C45E20D35CCF008FAA94 /* PopAnimationTests.m */,
+				8DC2C46020D35CCF008FAA94 /* Info.plist */,
+			);
+			path = PopAnimationTests;
+			sourceTree = "<group>";
+		};
+		8DC2C46820D35CCF008FAA94 /* PopAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2C46920D35CCF008FAA94 /* PopAnimationUITests.m */,
+				8DC2C46B20D35CCF008FAA94 /* Info.plist */,
+			);
+			path = PopAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DC2C44120D35CCE008FAA94 /* PopAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC2C46E20D35CCF008FAA94 /* Build configuration list for PBXNativeTarget "PopAnimation" */;
+			buildPhases = (
+				8DC2C43E20D35CCE008FAA94 /* Sources */,
+				8DC2C43F20D35CCE008FAA94 /* Frameworks */,
+				8DC2C44020D35CCE008FAA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopAnimation;
+			productName = PopAnimation;
+			productReference = 8DC2C44220D35CCE008FAA94 /* PopAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DC2C45920D35CCF008FAA94 /* PopAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC2C47120D35CCF008FAA94 /* Build configuration list for PBXNativeTarget "PopAnimationTests" */;
+			buildPhases = (
+				8DC2C45620D35CCF008FAA94 /* Sources */,
+				8DC2C45720D35CCF008FAA94 /* Frameworks */,
+				8DC2C45820D35CCF008FAA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC2C45C20D35CCF008FAA94 /* PBXTargetDependency */,
+			);
+			name = PopAnimationTests;
+			productName = PopAnimationTests;
+			productReference = 8DC2C45A20D35CCF008FAA94 /* PopAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DC2C46420D35CCF008FAA94 /* PopAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC2C47420D35CCF008FAA94 /* Build configuration list for PBXNativeTarget "PopAnimationUITests" */;
+			buildPhases = (
+				8DC2C46120D35CCF008FAA94 /* Sources */,
+				8DC2C46220D35CCF008FAA94 /* Frameworks */,
+				8DC2C46320D35CCF008FAA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC2C46720D35CCF008FAA94 /* PBXTargetDependency */,
+			);
+			name = PopAnimationUITests;
+			productName = PopAnimationUITests;
+			productReference = 8DC2C46520D35CCF008FAA94 /* PopAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DC2C43A20D35CCE008FAA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Monster;
+				TargetAttributes = {
+					8DC2C44120D35CCE008FAA94 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8DC2C45920D35CCF008FAA94 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DC2C44120D35CCE008FAA94;
+					};
+					8DC2C46420D35CCF008FAA94 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DC2C44120D35CCE008FAA94;
+					};
+				};
+			};
+			buildConfigurationList = 8DC2C43D20D35CCE008FAA94 /* Build configuration list for PBXProject "PopAnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DC2C43920D35CCE008FAA94;
+			productRefGroup = 8DC2C44320D35CCE008FAA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2C44120D35CCE008FAA94 /* PopAnimation */,
+				8DC2C45920D35CCF008FAA94 /* PopAnimationTests */,
+				8DC2C46420D35CCF008FAA94 /* PopAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2C44020D35CCE008FAA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2C45220D35CCF008FAA94 /* LaunchScreen.storyboard in Resources */,
+				8DC2C44F20D35CCE008FAA94 /* Assets.xcassets in Resources */,
+				8DC2C44D20D35CCE008FAA94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2C45820D35CCF008FAA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2C46320D35CCF008FAA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2C43E20D35CCE008FAA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2C44A20D35CCE008FAA94 /* ViewController.m in Sources */,
+				8DC2C45520D35CCF008FAA94 /* main.m in Sources */,
+				8DC2C44720D35CCE008FAA94 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2C45620D35CCF008FAA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2C45F20D35CCF008FAA94 /* PopAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2C46120D35CCF008FAA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2C46A20D35CCF008FAA94 /* PopAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DC2C45C20D35CCF008FAA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2C44120D35CCE008FAA94 /* PopAnimation */;
+			targetProxy = 8DC2C45B20D35CCF008FAA94 /* PBXContainerItemProxy */;
+		};
+		8DC2C46720D35CCF008FAA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2C44120D35CCE008FAA94 /* PopAnimation */;
+			targetProxy = 8DC2C46620D35CCF008FAA94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DC2C44B20D35CCE008FAA94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DC2C44C20D35CCE008FAA94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DC2C45020D35CCF008FAA94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DC2C45120D35CCF008FAA94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DC2C46C20D35CCF008FAA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DC2C46D20D35CCF008FAA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DC2C46F20D35CCF008FAA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H44DAN2YD;
+				INFOPLIST_FILE = PopAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monste.PopAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DC2C47020D35CCF008FAA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H44DAN2YD;
+				INFOPLIST_FILE = PopAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monste.PopAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DC2C47220D35CCF008FAA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H44DAN2YD;
+				INFOPLIST_FILE = PopAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monste.PopAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopAnimation.app/PopAnimation";
+			};
+			name = Debug;
+		};
+		8DC2C47320D35CCF008FAA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H44DAN2YD;
+				INFOPLIST_FILE = PopAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monste.PopAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopAnimation.app/PopAnimation";
+			};
+			name = Release;
+		};
+		8DC2C47520D35CCF008FAA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H44DAN2YD;
+				INFOPLIST_FILE = PopAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monste.PopAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopAnimation;
+			};
+			name = Debug;
+		};
+		8DC2C47620D35CCF008FAA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H44DAN2YD;
+				INFOPLIST_FILE = PopAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = monste.PopAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DC2C43D20D35CCE008FAA94 /* Build configuration list for PBXProject "PopAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC2C46C20D35CCF008FAA94 /* Debug */,
+				8DC2C46D20D35CCF008FAA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC2C46E20D35CCF008FAA94 /* Build configuration list for PBXNativeTarget "PopAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC2C46F20D35CCF008FAA94 /* Debug */,
+				8DC2C47020D35CCF008FAA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC2C47120D35CCF008FAA94 /* Build configuration list for PBXNativeTarget "PopAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC2C47220D35CCF008FAA94 /* Debug */,
+				8DC2C47320D35CCF008FAA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC2C47420D35CCF008FAA94 /* Build configuration list for PBXNativeTarget "PopAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC2C47520D35CCF008FAA94 /* Debug */,
+				8DC2C47620D35CCF008FAA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DC2C43A20D35CCE008FAA94 /* Project object */;
+}
