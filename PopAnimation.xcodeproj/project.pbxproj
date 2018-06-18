@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1F61ED44AC4690CDD411DCA7 /* libPods-PopAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FA28B68442B3C4FE5BF18D /* libPods-PopAnimation.a */; };
+		8D1A914520D788AA0079A904 /* MWDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A914420D788AA0079A904 /* MWDemoViewController.m */; };
+		8DC1FD3620D3AE3700482E8D /* MWSpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC1FD3520D3AE3700482E8D /* MWSpringAnimationViewController.m */; };
 		8DC2C44720D35CCE008FAA94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2C44620D35CCE008FAA94 /* AppDelegate.m */; };
 		8DC2C44A20D35CCE008FAA94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2C44920D35CCE008FAA94 /* ViewController.m */; };
 		8DC2C44D20D35CCE008FAA94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DC2C44B20D35CCE008FAA94 /* Main.storyboard */; };
@@ -38,6 +40,12 @@
 /* Begin PBXFileReference section */
 		21FA28B68442B3C4FE5BF18D /* libPods-PopAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CD2A8CEF0CE8CBE4FE9BE44 /* Pods-PopAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopAnimation/Pods-PopAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1A914320D788AA0079A904 /* MWDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWDemoViewController.h; sourceTree = "<group>"; };
+		8D1A914420D788AA0079A904 /* MWDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWDemoViewController.m; sourceTree = "<group>"; };
+		8DC1FD2E20D3633E00482E8D /* PopAnimation-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PopAnimation-PrefixHeader.pch"; sourceTree = "<group>"; };
+		8DC1FD2F20D3660600482E8D /* PopDesign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopDesign.h; sourceTree = "<group>"; };
+		8DC1FD3420D3AE3700482E8D /* MWSpringAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWSpringAnimationViewController.h; sourceTree = "<group>"; };
+		8DC1FD3520D3AE3700482E8D /* MWSpringAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWSpringAnimationViewController.m; sourceTree = "<group>"; };
 		8DC2C44220D35CCE008FAA94 /* PopAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC2C44520D35CCE008FAA94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DC2C44620D35CCE008FAA94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +99,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8D1A914220D788960079A904 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8D1A914320D788AA0079A904 /* MWDemoViewController.h */,
+				8D1A914420D788AA0079A904 /* MWDemoViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8DC1FD3020D3ADB300482E8D /* SpringAnimation  */ = {
+			isa = PBXGroup;
+			children = (
+				8DC1FD3420D3AE3700482E8D /* MWSpringAnimationViewController.h */,
+				8DC1FD3520D3AE3700482E8D /* MWSpringAnimationViewController.m */,
+			);
+			path = "SpringAnimation ";
+			sourceTree = "<group>";
+		};
+		8DC1FD3120D3ADC200482E8D /* DecayAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DecayAnimation;
+			sourceTree = "<group>";
+		};
+		8DC1FD3220D3ADD100482E8D /* BasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BasicAnimation;
+			sourceTree = "<group>";
+		};
+		8DC1FD3320D3ADD900482E8D /* AnimatableProperty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AnimatableProperty;
+			sourceTree = "<group>";
+		};
 		8DC2C43920D35CCE008FAA94 = {
 			isa = PBXGroup;
 			children = (
@@ -120,11 +167,18 @@
 				8DC2C44620D35CCE008FAA94 /* AppDelegate.m */,
 				8DC2C44820D35CCE008FAA94 /* ViewController.h */,
 				8DC2C44920D35CCE008FAA94 /* ViewController.m */,
+				8D1A914220D788960079A904 /* Demo */,
+				8DC1FD3020D3ADB300482E8D /* SpringAnimation  */,
+				8DC1FD3120D3ADC200482E8D /* DecayAnimation */,
+				8DC1FD3220D3ADD100482E8D /* BasicAnimation */,
+				8DC1FD3320D3ADD900482E8D /* AnimatableProperty */,
 				8DC2C44B20D35CCE008FAA94 /* Main.storyboard */,
 				8DC2C44E20D35CCE008FAA94 /* Assets.xcassets */,
 				8DC2C45020D35CCF008FAA94 /* LaunchScreen.storyboard */,
 				8DC2C45320D35CCF008FAA94 /* Info.plist */,
 				8DC2C45420D35CCF008FAA94 /* main.m */,
+				8DC1FD2E20D3633E00482E8D /* PopAnimation-PrefixHeader.pch */,
+				8DC1FD2F20D3660600482E8D /* PopDesign.h */,
 			);
 			path = PopAnimation;
 			sourceTree = "<group>";
@@ -343,8 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1A914520D788AA0079A904 /* MWDemoViewController.m in Sources */,
 				8DC2C44A20D35CCE008FAA94 /* ViewController.m in Sources */,
 				8DC2C45520D35CCF008FAA94 /* main.m in Sources */,
+				8DC1FD3620D3AE3700482E8D /* MWSpringAnimationViewController.m in Sources */,
 				8DC2C44720D35CCE008FAA94 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,6 +567,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H44DAN2YD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopAnimation/PopAnimation-PrefixHeader.pch";
 				INFOPLIST_FILE = PopAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = monste.PopAnimation;
@@ -526,6 +584,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4H44DAN2YD;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PopAnimation/PopAnimation-PrefixHeader.pch";
 				INFOPLIST_FILE = PopAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = monste.PopAnimation;

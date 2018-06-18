@@ -1,0 +1,16 @@
+//
+//  PopAnimation-PrefixHeader.pch
+//  PopAnimation
+//
+//  Created by Monster on 2018/6/15.
+//  Copyright © 2018年 Monster. All rights reserved.
+//
+
+#ifndef PopAnimation_PrefixHeader_pch
+#define PopAnimation_PrefixHeader_pch
+
+#import "Masonry.h"
+#import "POP.h"
+#import "PopDesign.h"
+
+#endif /* PopAnimation_PrefixHeader_pch */
